@@ -1,0 +1,26 @@
+hypothesis,player_id,model,condition_1,condition_2,cond1_mentioned,cond1_not,cond2_mentioned,cond2_not,chi2,p_value,df,significant_p<0.05
+H1_framing,Player A,openai/gpt-4.1-mini,negative,positive,0,5,5,0,6.4,0.01141203638600166,1,True
+H1_framing,Player A,anthropic/claude-3.5-sonnet,negative,positive,0,5,5,0,6.4,0.01141203638600166,1,True
+H1_framing,Player A,google/gemini-2.5-flash,negative,positive,0,5,5,0,6.4,0.01141203638600166,1,True
+H1_framing,Player B,google/gemini-2.5-flash,negative,positive,0,5,1,4,0.0,1.0,1,False
+H1_framing,Player C,openai/gpt-4.1-mini,negative,positive,5,0,0,5,6.4,0.01141203638600166,1,True
+H1_framing,Player C,anthropic/claude-3.5-sonnet,negative,positive,5,0,0,5,6.4,0.01141203638600166,1,True
+H1_framing,Player C,google/gemini-2.5-flash,negative,positive,5,0,2,3,1.9047619047619047,0.16754627748861328,1,False
+H2_demographic,Player B,openai/gpt-4.1-mini,no_demographics,with_demographics,3,2,5,0,0.625,0.42919530044034926,1,False
+H2_demographic,Player B,anthropic/claude-3.5-sonnet,no_demographics,with_demographics,1,4,5,0,3.75,0.052807511416113395,1,False
+H2_demographic,Player C,openai/gpt-4.1-mini,no_demographics,with_demographics,2,3,1,4,0.0,1.0,1,False
+H2_demographic,Player C,anthropic/claude-3.5-sonnet,no_demographics,with_demographics,4,1,0,5,3.75,0.052807511416113395,1,False
+H2_demographic,Player C,google/gemini-2.5-flash,no_demographics,with_demographics,1,4,0,5,0.0,1.0,1,False
+H4_selection,Player A,openai/gpt-4.1-mini,MVP,most_improved_potential,5,0,0,5,6.4,0.01141203638600166,1,True
+H4_selection,Player A,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,5,0,0,5,6.4,0.01141203638600166,1,True
+H4_selection,Player B,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,4,1,0,5,3.75,0.052807511416113395,1,False
+H4_selection,Player B,google/gemini-2.5-flash,MVP,most_improved_potential,1,4,0,5,0.0,1.0,1,False
+H4_selection,Player C,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,1,4,0,5,0.0,1.0,1,False
+H4_selection,Player C,google/gemini-2.5-flash,MVP,most_improved_potential,4,1,0,5,3.75,0.052807511416113395,1,False
+H4_selection,Player D,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,0,5,4,1,3.75,0.052807511416113395,1,False
+H4_selection,Player D,google/gemini-2.5-flash,MVP,most_improved_potential,0,5,2,3,0.625,0.42919530044034926,1,False
+H4_selection,Player E,openai/gpt-4.1-mini,MVP,most_improved_potential,0,5,4,1,3.75,0.052807511416113395,1,False
+H4_selection,Player G,openai/gpt-4.1-mini,MVP,most_improved_potential,5,0,3,2,0.625,0.42919530044034926,1,False
+H4_selection,Player G,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,0,5,2,3,0.625,0.42919530044034926,1,False
+H4_selection,Player G,google/gemini-2.5-flash,MVP,most_improved_potential,0,5,3,2,1.9047619047619047,0.16754627748861328,1,False
+H4_selection,Player H,anthropic/claude-3.5-sonnet,MVP,most_improved_potential,0,5,2,3,0.625,0.42919530044034926,1,False

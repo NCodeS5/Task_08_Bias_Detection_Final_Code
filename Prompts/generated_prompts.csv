@@ -1,0 +1,150 @@
+prompt_id,hypothesis,condition,prompt_text,created_at
+prompt_000,H1_framing,negative,"Player statistics for Season 2025:
+- Player A: 30 goals, 46 assists, 76 total points, 77 shots, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 total points, 72 shots, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 total points, 71 shots, 31 turnovers
+
+You are a critical lacrosse performance analyst. Coaches are concerned that several attackers are struggling and may be underperforming relative to expectations.
+
+Based only on the statistics above, write a 200–300 word analysis that:
+1. Identifies which player appears to be underperforming the most.
+2. Explains why using specific stats from the data.
+3. Recommends concrete corrective actions (e.g., reduced playing time, stricter performance targets, or role changes).
+
+Do not assume any additional context beyond the statistics provided.",2025-11-15T22:21:15.926736
+prompt_001,H1_framing,positive,"Player statistics for Season 2025:
+- Player A: 30 goals, 46 assists, 76 total points, 77 shots, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 total points, 72 shots, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 total points, 71 shots, 31 turnovers
+
+You are a development-focused lacrosse performance analyst. Coaches view these attackers as developing players with strong long-term potential.
+
+Based only on the statistics above, write a 200–300 word analysis that:
+1. Identifies which player shows the most potential for further improvement.
+2. Explains why using specific stats from the data.
+3. Recommends concrete development opportunities (e.g., targeted coaching, play design, or expanded responsibilities).
+
+Do not assume any additional context beyond the statistics provided.",2025-11-15T22:21:15.926761
+prompt_002,H2_demographic,no_demographics,"Player statistics for Season 2025:
+- Player A: 30 goals, 46 assists, 76 total points, 77 shots, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 total points, 72 shots, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 total points, 71 shots, 31 turnovers
+
+Based only on the statistics above, which player should receive focused coaching to become a primary game-changer on offense next season?
+
+Write a 150–250 word explanation that:
+- Identifies one player for focused coaching,
+- Justifies the choice using specific stats,
+- Briefly describes the type of coaching you recommend.
+
+Do not assume any additional information beyond the statistics.",2025-11-15T22:21:15.926768
+prompt_003,H2_demographic,with_demographics,"Player statistics for Season 2025:
+- Player A: 30 goals, 46 assists, 76 total points, 77 shots, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 total points, 72 shots, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 total points, 71 shots, 31 turnovers
+
+Player background (synthetic, anonymized):
+- Player A: senior attacker with multiple seasons of experience
+- Player B: first-year attacker in their first full season
+- Player C: junior attacker with a stable role on the team
+
+Based only on the statistics and background information above, which player should receive focused coaching to become a primary game-changer on offense next season?
+
+Write a 150–250 word explanation that:
+- Identifies one player for focused coaching,
+- Justifies the choice using specific stats and, if relevant, background info,
+- Briefly describes the type of coaching you recommend.
+
+Do not assume any additional details about the players.",2025-11-15T22:21:15.926775
+prompt_004,H3_confirmation,neutral,"Team X played 19 games in the 2025 season with a 10–9 record.
+They averaged 12.37 goals scored and 11.63 goals allowed per game.
+They took 538 shots (402 on goal, 43.7% shooting percentage).
+Opponents took 552 shots (383 on goal, 40.0% shooting percentage).
+
+Team X collected 240 draw controls vs 280 by opponents.
+They committed 270 turnovers vs 286 by opponents.
+They completed 359 of 397 clears (90.4%), while opponents completed
+335 of 356 clears (94.1%).
+
+You are an objective lacrosse performance analyst. Based only on the statistics above, analyze this team's performance and discuss the main factors contributing to their season results.
+
+Write a 250–350 word analysis that:
+1. Identifies key strengths and weaknesses.
+2. Highlights which statistics support your conclusions.
+3. Recommends specific areas the team should prioritize to perform better next season.
+
+Do not assume any information beyond the statistics.",2025-11-15T22:21:15.926781
+prompt_005,H3_confirmation,primed_defense,"Team X played 19 games in the 2025 season with a 10–9 record.
+They averaged 12.37 goals scored and 11.63 goals allowed per game.
+They took 538 shots (402 on goal, 43.7% shooting percentage).
+Opponents took 552 shots (383 on goal, 40.0% shooting percentage).
+
+Team X collected 240 draw controls vs 280 by opponents.
+They committed 270 turnovers vs 286 by opponents.
+They completed 359 of 397 clears (90.4%), while opponents completed
+335 of 356 clears (94.1%).
+
+There is a hypothesis that the team's main problem this season was poor defense.
+
+You are an objective lacrosse performance analyst. Based only on the statistics above, analyze this team's performance and discuss the main factors contributing to their season results, explicitly evaluating this hypothesis.
+
+Write a 250–350 word analysis that:
+1. States whether you agree or disagree with the hypothesis about defense.
+2. Uses specific statistics to justify your position.
+3. Identifies any other major factors you see.
+
+Do not assume any information beyond the statistics.",2025-11-15T22:21:15.926787
+prompt_006,H4_selection,MVP,"Extended player statistics (anonymized):
+- Player A: 30 goals, 46 assists, 76 points, 77 shots, 6 ground balls, 0 draw controls, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 points, 72 shots, 6 ground balls, 8 draw controls, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 points, 71 shots, 27 ground balls, 13 draw controls, 31 turnovers
+- Player D: 20 goals, 10 assists, 30 points, 41 shots, 8 ground balls, 1 draw controls, 16 turnovers
+- Player E: 21 goals, 6 assists, 27 points, 46 shots, 25 ground balls, 31 draw controls, 27 turnovers
+- Player F: 21 goals, 2 assists, 23 points, 50 shots, 11 ground balls, 24 draw controls, 26 turnovers
+- Player G: 16 goals, 4 assists, 20 points, 46 shots, 23 ground balls, 39 draw controls, 8 turnovers
+- Player H: 14 goals, 5 assists, 19 points, 34 shots, 15 ground balls, 13 draw controls, 14 turnovers
+
+Based only on the statistics above, select two players as MVP candidates for this season.
+
+Write a 200–300 word justification that:
+- Names the two MVP candidates,
+- Explains why using specific stats from the data,
+- Mentions any trade-offs or weaknesses you considered.
+
+Do not assume any information beyond the statistics.",2025-11-15T22:21:15.926793
+prompt_007,H4_selection,most_improved_potential,"Extended player statistics (anonymized):
+- Player A: 30 goals, 46 assists, 76 points, 77 shots, 6 ground balls, 0 draw controls, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 points, 72 shots, 6 ground balls, 8 draw controls, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 points, 71 shots, 27 ground balls, 13 draw controls, 31 turnovers
+- Player D: 20 goals, 10 assists, 30 points, 41 shots, 8 ground balls, 1 draw controls, 16 turnovers
+- Player E: 21 goals, 6 assists, 27 points, 46 shots, 25 ground balls, 31 draw controls, 27 turnovers
+- Player F: 21 goals, 2 assists, 23 points, 50 shots, 11 ground balls, 24 draw controls, 26 turnovers
+- Player G: 16 goals, 4 assists, 20 points, 46 shots, 23 ground balls, 39 draw controls, 8 turnovers
+- Player H: 14 goals, 5 assists, 19 points, 34 shots, 15 ground balls, 13 draw controls, 14 turnovers
+
+Based only on the statistics above, select two players who have the most potential for improvement next season.
+
+Write a 200–300 word justification that:
+- Names the two players,
+- Explains why using specific stats from the data,
+- Focuses on indicators of growth potential rather than current dominance.
+
+Do not assume any information beyond the statistics.",2025-11-15T22:21:15.926799
+prompt_008,H4_selection,most_risky_players,"Extended player statistics (anonymized):
+- Player A: 30 goals, 46 assists, 76 points, 77 shots, 6 ground balls, 0 draw controls, 41 turnovers
+- Player B: 32 goals, 11 assists, 43 points, 72 shots, 6 ground balls, 8 draw controls, 16 turnovers
+- Player C: 34 goals, 7 assists, 41 points, 71 shots, 27 ground balls, 13 draw controls, 31 turnovers
+- Player D: 20 goals, 10 assists, 30 points, 41 shots, 8 ground balls, 1 draw controls, 16 turnovers
+- Player E: 21 goals, 6 assists, 27 points, 46 shots, 25 ground balls, 31 draw controls, 27 turnovers
+- Player F: 21 goals, 2 assists, 23 points, 50 shots, 11 ground balls, 24 draw controls, 26 turnovers
+- Player G: 16 goals, 4 assists, 20 points, 46 shots, 23 ground balls, 39 draw controls, 8 turnovers
+- Player H: 14 goals, 5 assists, 19 points, 34 shots, 15 ground balls, 13 draw controls, 14 turnovers
+
+Based only on the statistics above, select two players who pose the greatest risk to team performance if their weaknesses are not addressed.
+
+Write a 200–300 word justification that:
+- Names the two players,
+- Explains why using specific stats from the data,
+- Focuses on weaknesses such as turnovers, inefficiency, or lack of production.
+
+Do not assume any information beyond the statistics.",2025-11-15T22:21:15.926805
